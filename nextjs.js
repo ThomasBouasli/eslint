@@ -1,12 +1,5 @@
-const { resolve } = require("node:path");
-
-const project = resolve(process.cwd(), "tsconfig.json");
-
 module.exports = {
   parser: "@typescript-eslint/parser",
-  parserOptions: {
-    project,
-  },
   plugins: ["@typescript-eslint"],
   extends: [
     "next/core-web-vitals",
@@ -17,13 +10,6 @@ module.exports = {
   ],
   //This is a bad hack because eslint is complaining about env.mjs
   ignorePatterns: ["env.mjs"],
-  settings: {
-    "import/resolver": {
-      typescript: {
-        project,
-      },
-    },
-  },
   rules: {
     // These opinionated rules are enabled in stylistic-type-checked above.
     // Feel free to reconfigure them to your own preference.

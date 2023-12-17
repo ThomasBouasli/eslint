@@ -1,5 +1,5 @@
 {
-  "name": "@tjob/eslint-config-custom",
+  "name": "@thomasbouasli/eslint-config-custom",
   "version": "0.0.0",
   "license": "MIT",
   "devDependencies": {

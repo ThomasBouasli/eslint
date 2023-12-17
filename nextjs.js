@@ -8,8 +8,6 @@ module.exports = {
     "eslint-config-turbo",
     "prettier",
   ],
-  //This is a bad hack because eslint is complaining about env.mjs
-  ignorePatterns: ["env.mjs"],
   rules: {
     // These opinionated rules are enabled in stylistic-type-checked above.
     // Feel free to reconfigure them to your own preference.

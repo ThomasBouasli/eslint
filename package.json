@@ -1,6 +1,6 @@
 {
-  "name": "@thomasbouasli/eslint-config-nextjs",
-  "version": "0.0.1",
+  "name": "@thomasbouasli/eslint-config",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "nextjs.js",
   "devDependencies": {
